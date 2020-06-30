@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "JSON Affinity",
+    "version": "0.0.1",
+    "description": "Prefers JSON over XML in accept header",
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "background": {
+        "scripts": [
+            "editHeader.js"
+        ]
+    }
+}
